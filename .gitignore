@@ -1,0 +1,21 @@
+# 元数据库 (453 MiB, 用 fetch_db.py 下载)
+*.sqlite
+*.sqlite-journal
+
+# 生成的清单 (体积大, 可自行生成)
+manifest*.tsv
+urls*.txt
+aria_*.txt
+.aria_input*.txt
+
+# 下载产物
+games/
+*.zip
+*.aria2
+aria.log
+run_*.log
+
+# 本地
+__pycache__/
+*.pyc
+.DS_Store
